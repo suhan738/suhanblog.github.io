@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS File/style.css">
+  <title>Suhan Blogs</title>
+
+</head>
+
+<body>
+  <header class="main_header col-sm-12">
+    <div class="d-flex justify-content-center align-items-center flex-column py-3">
+      <h1 class="main_heading text-uppercase">Programming Lover Blogs</h1>
+      <p class="main_heading__para">Welcome to my <span class="bg-dark text-white p-3">World of Blogs</span> </p>
+    </div>
+    <!--------- main images------->
+    <div class="main_header__div d-flex justify-content-center align-items-start pl-5 flex-column shadow ">
+      <p>Programming Lover Suhan</p>
+      <h2 class="animate_word">
+        <span>He is</span>
+        <div>
+          <ul class="flip">
+            <li>a Programmer</li>
+            <li>a Freelancer</li>
+            <li>a Youtuber</li>
+            <li>Awesome</li>
+          </ul>
+        </div>
+      </h2>
+      <button>SUBSCRIBE</button>
+    </div>
+  </header>
+  <!-----------------header end--------------->
+  <!-- --------two sides div--------------- -->
+  <div class="container-fluid">
+    <div class="row">
+      <!-----to get left and right side div space---->
+      <div class="col-xl-10 col-lg-10 col-md-11 col-11 mx-auto my-5">
+        <div class="row gx-5 mx-sm-auto">
+          <!-----to get left side div space---->
+          <div class="col-lg-8 col-md-11 col-11 mx-auto">
+            <div class="row gy-5">
+              <!-- -----our first div------- -->
+              <div class="col-12 card p-4 shadow blog_left__div">
+                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-4 ">
+                  <h1>Best Laptop in 2020</h1>
+                  <p class="blog_title">
+                    <span class="font-weight-bold">Tittle Description, </span>Sep 5, 2020
+                  </p>
+                </div>
+                <figure class="right_side__image mb-5">
+                  <img
+                    src="https://images.pexels.com/photos/4458/cup-mug-desk-office.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    alt="" class="img-fluid shadow">
+                </figure>
+                <p><span class="font-weight-bold">Tech Lover Suhan:</span> Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Illum totam doloremque, quidem quae, ab consequuntur repudiandae veniam magni ex
+                  quisquam rem deserunt at autem nulla perferendis, id nemo sapiente ad!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sunt deserunt, reiciendis amet
+                  culpa quod saepe libero labore fuga quasi!</p>
+
+                <div class="d-flex justify-content-between left_div__btn">
+                  <div>
+                    <button class="left_div__like" id="like_btn">
+                      <i class="fas fa-thumbs-up"></i> Like
+                    </button>
+                  </div>
+                  <div>
+                    <button class="left_div__reply" onclick="reply('reply1')">
+                      Replies <badge class="bg-white text-dark p-2" style="border-radius: 50%;">1</badge>
+                    </button>
+                  </div>
+                </div>
+                <div class="replies" id="reply1">
+                  <div class="d-flex justify-content-start flex-row align-self-center card py-3 reply_card">
+                    <div class="mx-2 align-items-center reply_img">
+                      <img src="https://cdn.iconscout.com/icon/free/png-512/laptop-user-1-1179329.png" alt=""
+                        width="40px">
+                      <!-- <i class="fas fa-user-tie"></i> -->
+                    </div>
+                    <div class="reply_text__left">
+                      <p><span class="font-weight-bold">Suhan,</span> Sep 7, 2020, 8:10PM</p>
+                      <p>Awesome, bro I love your content</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- --------our second div------------- -->
+              <div class="col-12 card p-4 shadow blog_left__div">
+                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-4 ">
+                  <h1>Best Laptop in 2020</h1>
+                  <p class="blog_title">
+                    <span class="font-weight-bold">Tittle Description, </span>Sep 5, 2020
+                  </p>
+                </div>
+                <figure class="right_side__image mb-5">
+                  <img
+                    src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    alt="" class="img-fluid shadow">
+                </figure>
+                <p><span class="font-weight-bold">Tech Lover Suhan:</span> Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Illum totam doloremque, quidem quae, ab consequuntur repudiandae veniam magni ex
+                  quisquam rem deserunt at autem nulla perferendis, id nemo sapiente ad!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sunt deserunt, reiciendis amet
+                  culpa quod saepe libero labore fuga quasi!</p>
+
+                <div class="d-flex justify-content-between left_div__btn">
+                  <div>
+                    <button class="left_div__like" id="like_btn">
+                      <i class="fas fa-thumbs-up"></i> Like
+                    </button>
+                  </div>
+                  <div>
+                    <button class="left_div__reply" onclick="reply('reply2')">
+                      Replies <badge class="bg-white text-dark p-2" style="border-radius: 50%;">2</badge>
+                    </button>
+                  </div>
+                </div>
+                <div class="replies" id="reply2">
+                  <div class="d-flex justify-content-start flex-row align-self-center card py-3 reply_card">
+                    <div class="mx-2 align-items-center reply_img">
+                      <img src="https://cdn.iconscout.com/icon/free/png-512/laptop-user-1-1179329.png" alt=""
+                        width="40px">
+                      <!-- <i class="fas fa-user-tie"></i> -->
+                    </div>
+                    <div class="reply_text__left">
+                      <p><span class="font-weight-bold">Rayhan,</span> Sep 7, 2020, 8:10PM</p>
+                      <p>Awesome, bro I love your content</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-start flex-row align-self-center card py-3 reply_card">
+                    <div class="mx-2 align-items-center reply_img">
+                      <img src="https://cdn.iconscout.com/icon/free/png-512/laptop-user-1-1179329.png" alt=""
+                        width="40px">
+                      <!-- <i class="fas fa-user-tie"></i> -->
+                    </div>
+                    <div class="reply_text__left">
+                      <p><span class="font-weight-bold">Aditya,</span> Sep 7, 2020, 8:10PM</p>
+                      <p>Thanks bro!</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <!-- -------------our third div----------- -->
+              <div class="col-12 card p-4 shadow blog_left__div ml_bottom">
+                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-4 ">
+                  <h1>Best Laptop in 2020</h1>
+                  <p class="blog_title">
+                    <span class="font-weight-bold">Tittle Description, </span>Sep 5, 2020
+                  </p>
+                </div>
+                <figure class="right_side__image mb-5">
+                  <img
+                    src="https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                    alt="" class="img-fluid shadow">
+                </figure>
+                <p><span class="font-weight-bold">Tech Lover Suhan:</span> Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Illum totam doloremque, quidem quae, ab consequuntur repudiandae veniam magni ex
+                  quisquam rem deserunt at autem nulla perferendis, id nemo sapiente ad!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sunt deserunt, reiciendis amet
+                  culpa quod saepe libero labore fuga quasi!</p>
+
+                <div class="d-flex justify-content-between left_div__btn">
+                  <div>
+                    <button class="left_div__like" id="like_btn">
+                      <i class="fas fa-thumbs-up"></i> Like
+                    </button>
+                  </div>
+                  <div>
+                    <button class="left_div__reply" onclick="reply('reply3')">
+                      Replies <badge class="bg-white text-dark p-2" style="border-radius: 50%;">3</badge>
+                    </button>
+                  </div>
+                </div>
+                <div class="replies" id="reply3">
+                  <div class="d-flex justify-content-start flex-row align-self-center card py-3 reply_card">
+                    <div class="mx-2 align-items-center reply_img">
+                      <img src="https://cdn.iconscout.com/icon/free/png-512/laptop-user-1-1179329.png" alt=""
+                        width="40px">
+                      <!-- <i class="fas fa-user-tie"></i> -->
+                    </div>
+                    <div class="reply_text__left">
+                      <p><span class="font-weight-bold">Inaya,</span> Sep 7, 2020, 8:10PM</p>
+                      <p>Awesome, bro I love your content</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-start flex-row align-self-center card py-3 reply_card">
+                    <div class="mx-2 align-items-center reply_img">
+                      <img src="https://cdn.iconscout.com/icon/free/png-512/laptop-user-1-1179329.png" alt=""
+                        width="40px">
+                      <!-- <i class="fas fa-user-tie"></i> -->
+                    </div>
+                    <div class="reply_text__left">
+                      <p><span class="font-weight-bold">Toufiq,</span> Sep 7, 2020, 8:10PM</p>
+                      <p>Awesome, bro I love your content</p>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-start flex-row align-self-center card py-3 reply_card">
+                    <div class="mx-2 align-items-center reply_img">
+                      <img src="https://cdn.iconscout.com/icon/free/png-512/laptop-user-1-1179329.png" alt=""
+                        width="40px">
+                      <!-- <i class="fas fa-user-tie"></i> -->
+                    </div>
+                    <div class="reply_text__left">
+                      <p><span class="font-weight-bold">Bijay,</span> Sep 7, 2020, 8:10PM</p>
+                      <p>Awesome, bro I love your content</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- --------third div end ----------->
+            </div>
+          </div>
+          <!-- ----------------all right div-------- -->
+          <div class="col-lg-3 col-md-7 col-11 justify-content-end m-lg-0 m-auto">
+            <div class="row gy-5 right_div__blog">
+              <div class="col-12 about_me__div shadow">
+                <h1>Programming Lover</h1>
+                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, praesentium suscipit recusandae neque.</p>
+              </div>
+              <div class="popular_post">
+                <div class="right_div__title py-4 pl-2">
+                  <h1>Popular Posts</h1>
+                </div>
+                <div class="right_sub__div shadow">
+                  <div class="row">
+                    <div class="col-3 popular_post__img1 py-2 pl-2">
+
+                    </div>
+                    <div class="col-9">
+                      <h3>Bill Gets</h3>
+                      <p>CEO Microsoft</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 popular_post__img2 py-2 pl-2">
+                      
+                    </div>
+                    <div class="col-9">
+                      <h3>Jeff Bezzos</h3>
+                      <p>CEO Amazon</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 popular_post__img3 py-2 pl-2">
+
+                    </div>
+                    <div class="col-9">
+                      <h3>Mark Zekarbarg</h3>
+                      <p>CEO Facebook</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-3 popular_post__img4 py-2 pl-2">
+
+                    </div>
+                    <div class="col-9">
+                      <h3>Steve Jobs</h3>
+                      <p>CEO Apple</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="right_div__post">
+                <div class="right_div__title py-4 pl-2">
+                  <h1>Advertise</h1>
+                </div>
+                <div class="right_sub__div">
+                  <div class="advertise_img bg-light shadow pl-3">
+                    <p>Ads goes here</p>
+                  </div>
+                </div>
+              </div>
+              <div class="right_div__post">
+                <div class="right_div__title py-4 pl-2">
+                  <h1>Tags</h1>
+                </div>
+                <div class="tags_main right_sub__div">
+                  <a href="https://youtu.be/mwbOHGHNUkI" target="_blank" class="badge text-capitalize shadow">Html</a>
+                  <a href="#" class="badge text-capitalize shadow">CSS</a>
+                  <a href="#" class="badge text-capitalize shadow">JavaScript</a>
+                  <a href="#" class="badge text-capitalize shadow">php</a>
+                  <a href="#" class="badge text-capitalize shadow">python</a>
+                  <a href="#" class="badge text-capitalize shadow">react-js</a>
+                  <a href="#" class="badge text-capitalize shadow">kotlin</a>
+                  <a href="#" class="badge text-capitalize shadow">c++</a>
+                  <a href="#" class="badge text-capitalize shadow">java</a>
+                  <a href="#" class="badge text-capitalize shadow">c#</a>
+                  <a href="#" class="badge text-capitalize shadow">angular</a>
+                </div>
+              </div>
+              <!-- inspiration--------------- -->
+              <div class="right_div__post">
+                <div class="right_div__title py-4 pl-2">
+                  <h1>Inspiration</h1>
+                </div>
+                <div class="right_sub__div">
+                  <div class="row gx-3">
+                    <div class="col-6">
+                      <figure>
+                        <img src="https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid shadow">
+                      </figure>
+                    </div> 
+                    <div class="col-6">
+                      <figure>
+                        <img src="https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid shadow">
+                      </figure>
+                    </div> 
+                    <div class="col-6">
+                      <figure>
+                        <img src="https://images.pexels.com/photos/372042/pexels-photo-372042.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid shadow">
+                      </figure>
+                    </div> 
+                    <div class="col-6">
+                      <figure>
+                        <img src="https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" class="img-fluid shadow">
+                      </figure>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+              <!-- -----social media icon -->
+              <div class="right_div__post">
+                <div class="right_div__title py-4 pl-2">
+                  <h1>Follow Me</h1>
+                </div>
+                <div class="right_sub__div d-flex justify-content-around">
+                  <a href="#"><i class="fab fa-facebook-square fa-3x"></i></a>
+                  <a href="#"><i class="fab fa-instagram-square fa-3x"></i></a>
+                  <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+                  <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a>
+                  <a href="#"><i class="fab fa-youtube-square fa-3x"></i></a>
+                </div>
+              </div>
+              <!-- -------subscribe area---- -->
+              <div class="right_div__post">
+                <div class="right_div__title py-4 pl-2">
+                  <h1>Subscribe</h1>
+                </div>
+                <div class="right_sub__div">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Enter your email below and get notified on the latest blog post </label>
+                      <input type="email" class="form-control email_input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@suhan.com">
+                    </div>
+                    <button type="submit" class="sub_btn d-block">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- ------right div end-------- -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- -------footer part-------- -->
+<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+  <div class="container">
+    <div class="row row-30">
+      <div class="col-md-4 col-xl-5">
+        <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="Image/33078-5-burberry-logo-file.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
+          <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.</p>
+          <!-- Rights-->
+          <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Waves</span><span>. </span><span>All Rights Reserved.</span></p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h2>Contacts</h2>
+        <dl class="contact-list contact_list">
+          <dt>Address:</dt>
+          <dd>798 South Park Avenue, Jaipur, Raj</dd>
+        </dl>
+        <dl class="contact-list contact_list">
+          <dt>email:</dt>
+          <dd><a href="mailto:#">dkstudioin@gmail.com</a></dd>
+        </dl>
+        <dl class="contact-list contact_list">
+          <dt>phones:</dt>
+          <dd><a href="tel:#">https://karosearch.com</a> <span>or</span> <a href="tel:#">https://karosearch.com</a>
+          </dd>
+        </dl>
+      </div>
+      <div class="col-md-4 col-xl-3">
+        <h2>Links</h2>
+        <ul class="nav-list nav_list">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contacts</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--footer end -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+    </script>
+    <!-- FontAwesome CDN -->
+    <script src="https://kit.fontawesome.com/56e2a4d411.js" crossorigin="anonymous"></script>
+
+    <script>
+      // comments show/hide toggler
+      const reply = (res) => {
+        var res = document.getElementById(res);
+        if (res.className == 'replies') {
+          res.className = 'repliesShow';
+        } else if (res.className == 'repliesShow') {
+          res.className = 'replies';
+        }
+      }
+
+      // JS customisation for like btn
+      const like = document.getElementById('like_btn');
+
+      const singleClick = () => {
+        like.style.fontWeight = 'bold';
+        like.style.background = 'rgb(162, 214, 235)';
+        like.style.color = '#363636';
+        like.innerHTML = '✔ Liked';
+      }
+
+      const dblClick = () => {
+        like.style.fontWeight = 'normal';
+        like.style.background = '#4069a7';
+        like.style.color = '#fff';
+        like.innerHTML = 'Like';
+      }
+
+      var clickCount = 0;
+      like.addEventListener('click', function () {
+        clickCount++;
+        if (clickCount === 1) {
+          singleClickTimer = setTimeout(function () {
+            clickCount = 0;
+            singleClick();
+          }, 300);
+        } else if (clickCount === 2) {
+          clearTimeout(singleClickTimer);
+          clickCount = 0;
+          dblClick();
+        }
+      }, false);
+    </script>
+
+</body>
+
+</html>
